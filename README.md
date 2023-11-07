@@ -2,7 +2,10 @@
 
 Analyzing the survey questions to determine which are most predictive of a movie's IMDB rating, critic meta-score, or gross USA ticket sales. 
 
-Preprocessed and constructed predictive models for IMDB ratings of a movies,employing regression techniques like Lasso and Ridge.Evaluated performance of modeling approaches by sentiment analysis using NLTK to optimize model adaptability and fine-tuned feature selection by integrating both survey-based and non-survey questions asked to customers after watching the movie.
+Basic Understanding - 
+
+**Preprocessed and constructed predictive models for IMDB ratings of a movies,employing regression techniques like Lasso and Ridge.Evaluated performance of modeling approaches by sentiment analysis using NLTK to optimize model adaptability and fine-tuned feature selection by integrating both survey-based and non-survey questions asked to customers after watching the movie.**
+
 
 
 
