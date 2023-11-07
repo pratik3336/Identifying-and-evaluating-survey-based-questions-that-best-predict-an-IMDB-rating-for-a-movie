@@ -2,8 +2,12 @@
 
 Analyzing the survey questions to determine which are most predictive of a movie's IMDB rating, critic meta-score, or gross USA ticket sales. 
 
+Preprocessed and constructed predictive models for IMDB ratings of a movies,employing regression techniques like Lasso and Ridge.Evaluated performance of modeling approaches by sentiment analysis using NLTK to optimize model adaptability and fine-tuned feature selection by integrating both survey-based and non-survey questions asked to customers after watching the movie.
 
-Data variables description:
+
+
+
+**Data variables description:**
 
 SURVEY QUESTIONS: All of the following variables are direct reports of survey questions that were filled out by survey-takers. The data are their responses. These are the data to use to predict movie attributes.
 
@@ -50,7 +54,7 @@ SURVEY QUESTIONS: All of the following variables are direct reports of survey qu
 - How strong was the cinematography?	
 - What's the most important attribute of this movie that this survey missed?	
 
-DATA ATTRIBUTES: All the following variables describe other attributes of the movie.
+**DATA ATTRIBUTES: All the following variables describe other attributes of the movie.**
 
 - moviename -- Name of the movie
 - year -- Year of movie's release	
@@ -73,7 +77,9 @@ DATA ATTRIBUTES: All the following variables describe other attributes of the mo
 - release_type -- Whether the movie received wide or limited release
 - num_reviews_written -- Number of IMDB reviews written for movie
 
-OUTCOMES: All of the following variables describe the outcomes of the movie that we'd like you to predict, with * denoting those that we'd like you to focus on for this task, and *** denoting our favorite.
+**OUTCOMES: All of the following variables describe the outcomes of the movie that we'd like you to predict, with * denoting those that we'd like you to focus on for this task, and *** denoting our favorite.**
+
+
 - opening_weekend_box_office	
 - opening_weekend_box_office_log	
 - * gross_usa *
